@@ -1,0 +1,36 @@
+<div class="card">
+    <div class="row">
+        <div class="left-item">
+            <div>FirstName</div>
+            <div>{{user.firstName}}</div>
+        </div>
+        <div class="right-item">
+            <label>LastName</label>
+            <div>{{user.lastName}}</div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="left-item">
+            <div>Email</div>
+            <div>{{user.email}}</div>
+        </div>
+        <div class="right-item">
+            <label>Gender</label>
+            <div>{{user.gender}}</div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="left-item">
+            <div>Age</div>
+            <div>{{user.age}}</div>
+        </div>
+        <div class="right-item">
+            <label>Salary</label>
+            <div>{{user.salary | currency:'INR'}}</div>
+        </div>
+    </div>
+    <div class="text-center">
+        <input class="btn btn-delete" type="button" value="Delete" (click)="deleteCard()">
+        <input class="btn btn-edit" type="button" value="Edit" (click)="editUser(user.id)">
+    </div>
+</div>

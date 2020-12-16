@@ -1,0 +1,40 @@
+<form [formGroup]="userForm" (ngSubmit)="saveUser()">
+    <div class="row">
+        <h4>FirstName</h4>
+        <input type="text" [formControlName]="'firstName'">
+    </div>
+
+    <div class="row">
+        <h4>LastName</h4>
+        <input type="text" [formControlName]="'lastName'">
+    </div>
+
+    <div class="row">
+        <h4>Email</h4>
+        <input type="email" [formControlName]="'email'">
+    </div>
+
+    <div class="row">
+        <h4>Gender</h4>
+        <select [formControlName]="'gender'">
+            <option [ngValue]="'Male'">Male</option>
+            <option [ngValue]="'Female'">Female</option>
+            <option [ngValue]="'Other'">Other</option>
+        </select>
+    </div>
+
+    <div class="row">
+        <h4>Age</h4>
+        <input type="number" [formControlName]="'age'">
+    </div>
+
+    <div class="row">
+        <h4>Salary</h4>
+        <input type="number" [formControlName]="'salary'">
+    </div>
+    <div class="text-center row">
+        <input class="btn" type="button" type="submit" value="Submit" [disabled]="!userForm.valid">
+        <input class="btn" type="button" type="reset" value="Reset">
+    </div>
+
+</form>

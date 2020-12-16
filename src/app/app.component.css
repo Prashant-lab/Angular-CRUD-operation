@@ -1,0 +1,44 @@
+.container {
+    margin: 5px;
+    min-height: 700px;
+    background-color: #121212;
+}
+
+.container::after {
+    content: '';
+    clear: both;
+    display: Table;
+}
+
+.left-container {
+    float: left;
+    width: 30%;
+    min-height: 700px;
+}
+
+.menu {
+    list-style-type: none;
+    text-align: center;
+}
+
+a:link,
+a:visited {
+    display: block;
+    padding: 20px;
+    border-bottom: 2px solid #ccc;
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    background-color: rgba(50, 50, 50, 1);
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.right-container {
+    float: right;
+    width: 70%;
+    min-height: 700px;
+    border-left: 1px solid white;
+}

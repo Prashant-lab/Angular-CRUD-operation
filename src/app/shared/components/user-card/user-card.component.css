@@ -1,0 +1,45 @@
+ .card {
+     border: 1px solid rgba(200, 200, 200, 1);
+     background-color: #000000;
+ }
+ 
+ .row {
+     content: '';
+     clear: both;
+     display: table;
+     padding: 10px;
+     width: 100%;
+ }
+ 
+ .left-item {
+     float: left;
+     padding: 10px;
+ }
+ 
+ .right-item {
+     float: right;
+     padding: 10px;
+ }
+ 
+ .text-center {
+     text-align: center;
+ }
+ 
+ .btn {
+     border: 0px;
+     border-radius: 10px;
+     padding: 5px 8px;
+     margin: 5px;
+     background-color: rgba(100, 100, 100, 1);
+     color: #fff
+ }
+ 
+ .btn-delete:hover {
+     background-color: red;
+     transform: scale(1.05);
+ }
+ 
+ .btn-edit:hover {
+     background-color: blue;
+     transform: scale(1.05);
+ }

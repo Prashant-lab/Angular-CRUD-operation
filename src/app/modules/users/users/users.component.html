@@ -1,0 +1,6 @@
+<div class="container">
+    <app-user-card (onDeleteUser)="deletedUser(user)" [user]="user" *ngFor="let user of users"></app-user-card>
+</div>
+<div class="add-bar">
+    <input class="btn" type="button" value="Add" (click)="addUser()">
+</div>

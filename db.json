@@ -1,0 +1,40 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "firstName": "Prashant",
+      "lastName": "Maurya",
+      "email": "prashnat@abc",
+      "age": 24,
+      "gender": "male",
+      "salary": 30000
+    },
+    {
+      "id": 2,
+      "firstName": "Abha",
+      "lastName": "Verma",
+      "email": "abha@abc",
+      "age": 23,
+      "gender": "female",
+      "salary": 50000
+    },
+    {
+      "id": 3,
+      "firstName": "Harsh",
+      "lastName": "Karn",
+      "email": "harsh@abc",
+      "age": 25,
+      "gender": "male",
+      "salary": 40000
+    },
+    {
+      "id": 4,
+      "firstName": "Prachi",
+      "lastName": "maurya",
+      "email": "prachi@abc",
+      "age": 21,
+      "gender": "female",
+      "salary": 20000
+    }
+  ]
+}
